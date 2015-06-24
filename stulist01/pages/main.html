@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %} 
+  天津工业大学学生管理系统 
+{% end %}
+<link rel="stylesheet" href="/static/css/zzsc.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/zzsc.js"></script>
+{% block content %}
+	<div id="header">
+  <div class="wrap">
+   <div id="slide-holder">
+    <div id="slide-runner">
+      <a href="http://sc.chinaz.com/" target="_blank"><img id="slide-img-1" src="static/images/a3.jpg" class="slide" alt="" /></a>
+      
+      <div id="slide-controls">
+       <p id="slide-client" class="text"><strong></strong><span></span></p>
+       <p id="slide-desc" class="text"></p>
+       <p id="slide-nav"></p>
+      </div>
+    </div>
+   </div>
+   <script type="text/javascript">
+    if(!window.slider) {
+    var slider={};
+  }
+
+  slider.data= [
+    {
+        "id":"slide-img-1", 
+        "client":"",
+        "desc":"天津工业大学"
+    },
+   
+  ];
+   </script>
+    </div>
+</div>
+<div class="b_box">
+    <p><font size="3" color="#ff4500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  天津工业大学（Tianjin Polytechnic University缩写：TJPU），简称天工大，是天津市重点建设的公办全日制高等学校、天津市重点建设的全日制普通高等学校。学校历史悠久，最早的系始建于1912年，是一所以工为主，工理结合，工、理、文、管、经、法协调发展的多科性大学，拥有培养学士、硕士、博士的完整教育体系，参与国家“863”、“973”计划，在教育部首批本科教学评估中获得优秀，被教育部评为“全国毕业生就业典型经验高校。截至2013年，学校总占地面积230.8102万平方米，总建筑面积97.0527万平方米，下设1个学部、15个学院，全日制在校生28000余人，在校研究生近2000人，留学生约300人，图书馆拥有藏书212.75余万册。截至2013年，学校拥有1个省部共建国家重点实验室培育基地，2个教育部重点实验室、5个天津市重点实验室，2个教育部工程研究中心和4个天津市工程技术中心、1个天津市技术推广中心以及1个天津市人文社会科学重点研究基地。截至2013年，学校有2个一级学科博士点、14个二级学科博士点、20个一级学科硕士点、72个二级学科硕士点和4个专业硕士学位点（含15个工程硕士授予领域），有53个本科专业，其中6个国家级特色专业、15 个天津市品牌专业、6 个天津市战略性新兴产业相关专业，有25个高职专业。设有3个博士后流动站。学校拥有1个国家重点学科、7个天津市重点学科、3个天津市“重中之重”学科、1个天津市重点发展学科。”。</font></p> 
+    
+    
+ 
+  
+</div>
+{% end %}
